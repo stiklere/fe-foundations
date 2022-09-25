@@ -3,7 +3,7 @@ import { ShipperFactory } from './ShipperFactory';
 import { Mark, ShipmentState } from './types';
 
 export abstract class Shipment {
-    static shipmentId: number = 0;
+    static shipmentId: number = 1;
     protected shipper: Shipper;
     private state: ShipmentState;
 
